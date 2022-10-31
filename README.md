@@ -91,7 +91,7 @@ private HashTable<String, Boolean> collection;
 `HashTable`s are a way to store `(key, value)` pairs in Java. We'll use store each book's title and author (concatenated together as one `String`, i.e. `"The Lorax by Dr. Seuss"`) as the `key`, and we'll use the corresponding boolean value to record whether or not the book is available (`true`) or currently checked out (`false`).
 
 ---
-1. Make the `Library` class `extend` the `Building` class, add a `private HashTable<String, boolean> collection` attribute, and initialize this to an empty `HashTable<String, boolean>` inside the `Library` constructor. Don't forget to `import java.util.HashTable`!
+1. Make the `Library` class `extend` the `Building` class, add a `String name, String address,String residents, int nFloors` attribute, and initialize this to an empty `HashTable<String, boolean>` inside the `Library` constructor. Don't forget to `import java.util.HashTable`!
 
 ---
 2. Write methods to update the `HashTable` containing the `collection` every time we add/remove a title:
